@@ -14,7 +14,7 @@ Example: If you want to convert a manpage document `~/my-file.txt` into a Unix m
    docker run -v ~:/home/asciidoc/work/ -t fstab/asciidoc a2x --doctype manpage --format manpage my-file.txt
    ```
 
-This will pull the image from docker hub, start the container, and run _a2x_ within the container.
+This will pull the image from docker hub, start the container, and run [a2x](http://www.methods.co.nz/asciidoc/chunked/ch24.html) within the container.
 
 How To Build from Source
 -----------------
